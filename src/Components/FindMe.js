@@ -1,11 +1,11 @@
 import React from "react";
 
-function About() {
+function Find() {
   return (
     <div>
-      <h1>HEllo about</h1>
+      <h1> FInd me</h1>
     </div>
   );
 }
 
-export default About;
+export default Find;

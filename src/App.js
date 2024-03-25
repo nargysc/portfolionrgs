@@ -1,13 +1,24 @@
-import logo from "./logo.svg";
-import "./App.css";
+import "./App.scss";
+import React from "react";
+import Home from "./Components/Home";
+import About from "./Components/About";
+import Projects from "./Components/Projects";
+import FindMe from "./Components/FindMe";
+import NavBar from "./Components/NavBar";
+import { Routes, Route, useLocation } from "react-router-dom";
 
 function App() {
+  const location = useLocation();
   return (
-    <div className="App">
-      <p>Hello</p>
-      <p>How are you</p>
-      <p>DDgi</p>
-    </div>
+    <>
+      <NavBar />
+      <Routes location={location} key={location.pathname}>
+        <Route index element={<Home />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/findme" element={<FindMe />} />
+      </Routes>
+    </>
   );
 }
 
