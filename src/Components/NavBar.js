@@ -1,8 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./NavBar.scss";
+import { useTranslation } from "react-i18next";
 
 const NavBar = () => {
+  const { i18n } = useTranslation();
   return (
     <div className="nav">
       <div className=" logo">
@@ -36,9 +38,12 @@ const NavBar = () => {
           <div className="indicator"></div>
         </div>
         <div className="nav-item">
-          <Link className="nav-link" to="/">
-            ENG DE
-          </Link>
+          <span className="nav-link" onClick={() => i18n.changeLanguage("en")}>
+            EN
+          </span>
+          <span className="nav-link" onClick={() => i18n.changeLanguage("de")}>
+            DE
+          </span>
           <div className="indicator"></div>
         </div>
       </div>
