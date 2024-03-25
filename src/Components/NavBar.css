@@ -1,0 +1,121 @@
+.nav {
+  position: fixed;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  justify-content: space-between;
+  padding: 15px;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  font-size: 1.2em;
+  width: 100%;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 440;
+  box-sizing: border-box;
+}
+.nav .nav-link {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding: 15px;
+  cursor: pointer;
+}
+.nav .logo,
+.nav .nav-item {
+  margin: 1em;
+  font-weight: 400;
+  font-size: 1em;
+  position: relative;
+}
+.nav .logo .indicator,
+.nav .nav-item .indicator {
+  width: 6px;
+  height: 6px;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  border-radius: 50%;
+  top: 90%;
+  left: 50%;
+  transform: scale(0) translateX(-50%);
+  transition: all 0.2s cubic-bezier(0.76, 0, 0.24, 1);
+}
+.nav .logo:hover .indicator,
+.nav .nav-item:hover .indicator {
+  transform: scale(1) translateX(-50%);
+  background-color: rgb(0, 0, 0);
+}
+
+h1 {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-weight: 500;
+  font-size: 10vw;
+  line-height: 1;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navmenu {
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.logo p {
+  margin: 0px;
+  transition: all 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+  position: relative;
+  font-weight: 440;
+  font-style: normal;
+  font-size: 1em;
+}
+.logo .copy {
+  font-size: 0.8em;
+  font-weight: 640;
+}
+.logo .name {
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+  transition: all 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+  position: absolute;
+  margin-left: 3.8em;
+}
+.logo .name .codeby {
+  padding-left: 0.3em;
+}
+.logo .name .dennis {
+  padding-left: 0.3em;
+}
+.logo .name .snell {
+  position: absolute;
+  left: 140px;
+  padding-left: 0.3em;
+}
+.logo:hover .copy {
+  transform: rotate(360deg);
+  color: #9a784d;
+}
+.logo:hover .name {
+  padding-right: 30px;
+}
+.logo:hover .name .codeby {
+  transform: translateX(-100%);
+}
+.logo:hover .name .dennis {
+  transform: translateX(-65px);
+}
+.logo:hover .name .snell {
+  transform: translateX(-66px);
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import transition from "../transition";
 
 function Find() {
   return (
@@ -8,4 +9,4 @@ function Find() {
   );
 }
 
-export default Find;
+export default transition(Find);
