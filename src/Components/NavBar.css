@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
 .nav {
   position: fixed;
   cursor: pointer;
@@ -10,8 +11,7 @@
   display: flex;
   font-size: 1.2em;
   width: 100%;
-  font-family: "Titillium Web", sans-serif;
-  font-weight: 440;
+  font-family: "Roboto Mono", monospace;
   box-sizing: border-box;
 }
 .nav .navmenu {
@@ -27,9 +27,8 @@
 .nav .logo,
 .nav .nav-item {
   display: flex;
-  margin: 1em;
-  font-weight: 400;
-  font-size: 1em;
+  margin: 0em;
+  font-size: 0.8em;
   position: relative;
 }
 .nav .logo .indicator,
@@ -94,18 +93,18 @@ a {
   white-space: nowrap;
   transition: all 0.5s cubic-bezier(0.76, 0, 0.24, 1);
   position: absolute;
-  margin-left: 3.8em;
+  margin-left: 4.4em;
 }
 .logo .name .codeby {
-  padding-left: 0.3em;
+  padding-left: 0.8em;
 }
 .logo .name .dennis {
-  padding-left: 0.3em;
+  padding-left: 0.9em;
 }
 .logo .name .snell {
   position: absolute;
-  left: 140px;
-  padding-left: 0.3em;
+  left: 150px;
+  padding-left: 1.3em;
 }
 .logo:hover .copy {
   transform: rotate(360deg);
@@ -122,4 +121,36 @@ a {
 }
 .logo:hover .name .snell {
   transform: translateX(-66px);
+}
+
+@media only screen and (max-width: 768px) {
+  .copy {
+    display: flex;
+  }
+  .codeby {
+    display: none;
+  }
+  .dennis {
+    display: none;
+  }
+  .snell {
+    display: none;
+  }
+  .nav {
+    padding: 25px;
+    font-size: 1em;
+  }
+  .nav .nav-item {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .nav {
+    font-size: 1.1em;
+  }
+  .nav .logo .name {
+    margin-left: 3.5em;
+  }
 }

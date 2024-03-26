@@ -1,8 +1,13 @@
 {
   "title": "Hello World",
-    "projectnav": "Projects",
-      "aboutme": "About Me",
-      "findme": "Contact"
+    "projectnav": "Projects /",
+      "aboutme": "About Me /",
+      "findme": "Contact /",
+          "frontend":"Front-End Engineer-",
+              "frontend2":"Front-End Engineer-"
+
+
+
 
 
 }
