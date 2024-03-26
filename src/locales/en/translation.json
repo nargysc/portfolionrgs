@@ -1,3 +1,8 @@
 {
-  "title": "Hello World"
+  "title": "Hello World",
+    "projectnav": "Projects",
+      "aboutme": "About Me",
+      "findme": "Contact"
+
+
 }

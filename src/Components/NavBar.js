@@ -4,7 +4,7 @@ import "./NavBar.scss";
 import { useTranslation } from "react-i18next";
 
 const NavBar = () => {
-  const { i18n } = useTranslation();
+  const { i18n, t } = useTranslation();
   return (
     <div className="nav">
       <div className=" logo">
@@ -20,29 +20,31 @@ const NavBar = () => {
       <div className="navmenu">
         <div className="nav-item">
           <Link className="nav-link" to="/projects">
-            Projects
+            {t("projectnav")}
           </Link>
           <div className="indicator"></div>
         </div>
 
         <div className="nav-item">
           <Link className="nav-link" to="/about">
-            About
+            {t("aboutme")}
           </Link>
           <div className="indicator"></div>
         </div>
         <div className="nav-item">
           <Link className="nav-link" to="/findme">
-            Find Me
+            {t("findme")}
           </Link>
           <div className="indicator"></div>
         </div>
         <div className="nav-item">
-          <span className="nav-link" onClick={() => i18n.changeLanguage("en")}>
-            EN
-          </span>
-          <span className="nav-link" onClick={() => i18n.changeLanguage("de")}>
-            DE
+          <span
+            className="nav-link"
+            onClick={() =>
+              i18n.changeLanguage(i18n.language === "en" ? "de" : "en")
+            }
+          >
+            {i18n.language === "en" ? "DE" : "EN"}
           </span>
           <div className="indicator"></div>
         </div>
