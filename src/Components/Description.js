@@ -37,8 +37,7 @@ function Description() {
           initial="initial"
           animate={isInView ? "open" : "closed"}
         >
-          The combination of my passion for design, code, and coffee positions
-          me in a unique place in the world.
+          {t("combi")}
         </motion.p>
         <div data-scroll data-scroll-speed={1}>
           <div className="descbutton">

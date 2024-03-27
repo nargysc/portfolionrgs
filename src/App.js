@@ -7,11 +7,13 @@ import FindMe from "./Components/FindMe";
 import NavBar from "./Components/NavBar";
 import { Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
+import PreLoader from "./Components/PreLoader";
 
 function App() {
   const location = useLocation();
   return (
     <>
+      <PreLoader />
       <NavBar />
       <AnimatePresence mode="wait">
         <Routes location={location} key={location.pathname}>
