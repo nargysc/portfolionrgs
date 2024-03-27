@@ -131,8 +131,9 @@ transition: all 0.2s cubic-bezier(0.76,0, 0.24, 1);
           transform: translateX(-100%);
         }
         .dennis {
-             transform: translateX(-65px);
-             
+             transform: translateX(-66px);
+        
+  
 
         }
         .snell {
@@ -142,40 +143,4 @@ transition: all 0.2s cubic-bezier(0.76,0, 0.24, 1);
         }}
     }}
 
-  // Mobile
-@media only screen and (max-width: 768px) {
-.copy {
-  display: flex;
-}
-.codeby{
-  display:  none;
-}
-.dennis{
-  display: none;
-}
-.snell{
-  display: none;
-}
-  .nav {
-    padding:25px;
-    font-size: 1em;
-.nav-item{
-  align-items: center;
-  display: flex;
-  justify-content: center;
-}
-  
-        }
-      }
  
-
-// Tablet
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
-  .nav {
-    font-size: 1.1em;
-
-    .logo {
-      .name {
-        margin-left: 3.5em;
-    
-      }}}}

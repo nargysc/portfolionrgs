@@ -21,26 +21,11 @@ img {
   display: flex;
   white-space: nowrap;
 }
-.slider p {
-  margin: 0;
-  color: #4b414a;
-  font-size: 240px;
-}
-.slider p:nth-of-type(2) {
-  position: absolute;
-  left: 166%;
-  color: rgb(251, 111, 62);
-}
 
-.secondtext {
+p {
   margin: 0;
   color: #4b414a;
   font-size: 240px;
-}
-.secondtext:nth-of-type(2) {
-  position: absolute;
-  left: 166%;
-  color: rgb(251, 111, 62);
 }
 
 @media only screen and (max-width: 768px) {

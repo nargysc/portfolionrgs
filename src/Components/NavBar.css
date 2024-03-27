@@ -117,40 +117,8 @@ a {
   transform: translateX(-100%);
 }
 .logo:hover .name .dennis {
-  transform: translateX(-65px);
+  transform: translateX(-66px);
 }
 .logo:hover .name .snell {
   transform: translateX(-66px);
-}
-
-@media only screen and (max-width: 768px) {
-  .copy {
-    display: flex;
-  }
-  .codeby {
-    display: none;
-  }
-  .dennis {
-    display: none;
-  }
-  .snell {
-    display: none;
-  }
-  .nav {
-    padding: 25px;
-    font-size: 1em;
-  }
-  .nav .nav-item {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-  }
-}
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
-  .nav {
-    font-size: 1.1em;
-  }
-  .nav .logo .name {
-    margin-left: 3.5em;
-  }
 }
