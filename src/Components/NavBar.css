@@ -2,7 +2,7 @@
 .nav {
   position: fixed;
   cursor: pointer;
-  color: rgb(255, 255, 255);
+  color: black;
   justify-content: space-between;
   padding: 15px;
   position: absolute;
@@ -23,6 +23,7 @@
   position: relative;
   padding: 15px;
   cursor: pointer;
+  color: black;
 }
 .nav .logo,
 .nav .nav-item {

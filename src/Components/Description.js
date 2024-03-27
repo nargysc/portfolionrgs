@@ -42,7 +42,7 @@ function Description() {
         </motion.p>
         <div data-scroll data-scroll-speed={1}>
           <div className="descbutton">
-            <p>About Me</p>
+            <p className="descabout">About Me</p>
           </div>
         </div>
       </div>
