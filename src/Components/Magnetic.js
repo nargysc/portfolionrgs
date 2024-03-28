@@ -33,8 +33,10 @@ function Magn({ children }) {
       magnetic.current.addEventListener("mouseleave", handleMouseLeave);
 
       return () => {
-        magnetic.current.removeEventListener("mousemove", handleMouseMove); // eslint-disable-next-line
-        magnetic.current.removeEventListener("mouseleave", handleMouseLeave); // eslint-disable-next-line
+        if (magnetic.current) {
+          magnetic.current.removeEventListener("mousemove", handleMouseMove); // eslint-disable-next-line
+          magnetic.current.removeEventListener("mouseleave", handleMouseLeave); // eslint-disable-next-line
+        }
       };
     }
   }, []);

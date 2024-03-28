@@ -3,7 +3,12 @@ import "./Button.scss";
 import gsap from "gsap/gsap-core";
 import Magnetic from "./Magnetic";
 
-function Button({ children, backgroundColor = "#455CE9", ...attributes }) {
+function Button({
+  children,
+  backgroundColor = "#867ba3",
+  color = "black",
+  ...attributes
+}) {
   const circle = useRef(null);
   const timeline = useRef(null);
   let timeoutId = null;
@@ -51,7 +56,11 @@ function Button({ children, backgroundColor = "#455CE9", ...attributes }) {
         }}
       >
         {children}
-        <div ref={circle} className="circle" style={{ backgroundColor }}></div>
+        <div
+          ref={circle}
+          className="circle"
+          style={{ backgroundColor, color }}
+        ></div>
       </div>
     </Magnetic>
   );
