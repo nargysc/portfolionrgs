@@ -3,15 +3,15 @@ import { motion, useInView } from "framer-motion";
 import { slideUp, opacity } from "./descanim";
 import { useRef } from "react";
 import { useTranslation } from "react-i18next";
+import Button from "./Button";
+import "./Button.scss";
 
 function Description() {
   const container = useRef(null);
   const isInView = useInView(container);
   const { t } = useTranslation();
 
-  const phrase =
-    "I'm  an aspiring front-end software engineer with a strong passion for building responsive and effective web applications that positively impacts the world in tech and life.";
-
+  const phrase = "";
   return (
     <div ref={container} className="styles">
       <div className="body">
@@ -40,9 +40,9 @@ function Description() {
           {t("combi")}
         </motion.p>
         <div data-scroll data-scroll-speed={1}>
-          <div className="descbutton">
-            <p className="descabout">About Me</p>
-          </div>
+          <Button className="descbutton">
+            <p className="descabout">{t("aboutbutton")}</p>
+          </Button>
         </div>
       </div>
     </div>
