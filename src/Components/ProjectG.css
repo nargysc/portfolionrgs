@@ -101,3 +101,8 @@ p {
 .alink:hover {
   color: #867ba3;
 }
+
+.projectpages {
+  color: white;
+  text-decoration: none;
+}

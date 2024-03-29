@@ -95,7 +95,11 @@ const Home = () => {
             {showImage4 && <img src={IMG4} alt="Glazier" />}
           </div>
           <Magnetic>
-            <button className="morepr">{t("moreproject")}</button>
+            <button className="morepr">
+              <a className="projectpages" href="./Projects">
+                {t("moreproject")}
+              </a>
+            </button>
           </Magnetic>
         </div>
       </section>

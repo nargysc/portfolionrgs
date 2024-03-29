@@ -41,7 +41,9 @@ function Description() {
         </motion.p>
         <div data-scroll data-scroll-speed={1}>
           <Button className="descbutton">
-            <p className="descabout">{t("aboutbutton")}</p>
+            <a href="/About">
+              <p className="descabout">{t("aboutbutton")}</p>
+            </a>
           </Button>
         </div>
       </div>
