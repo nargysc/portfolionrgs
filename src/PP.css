@@ -1,0 +1,18 @@
+.contact {
+  position: relative;
+}
+
+.bgbody {
+  justify-content: space-between;
+  padding: 398px;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  font-family: "Titillium Web", sans-serif;
+  background-color: #867ba3;
+  font-weight: 600;
+  color: black;
+  position: relative;
+  overflow-x: hidden;
+}

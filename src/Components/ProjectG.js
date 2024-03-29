@@ -18,10 +18,6 @@ const Home = () => {
     <div>
       <section id="portfolio">
         <div className="portfolio__container">
-          <Magnetic>
-            <p className="some">{t("someproject")}</p>
-          </Magnetic>
-
           <div
             className="project myown"
             id="p1"

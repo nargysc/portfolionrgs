@@ -7,7 +7,7 @@ function Contact() {
       <div className="bgbody" alt="/">
         <div className="info">
           <span>
-            <h3>VERSION</h3>
+            <span>IF YOU WANT TO SAY HELLO, GET IN TOUCH WITH ME</span>
             <p>2024 © Edition </p>
           </span>
         </div>

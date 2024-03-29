@@ -10,6 +10,7 @@
     "someproject":"Einige ausgewählte Projekte, die ich gemacht habe",
     "moreproject":"Weitere Projekte",
     "clickfordemo":"Klicken Sie für GitHub Code", 
-    "myown":"Mein persönliches Portfolio"
+    "myown":"Mein persönliches Portfolio", 
+    "titleproject":"Meine Reise in der Front-End-Programmierung und im Design blühte durch eine Vielzahl von Projekten auf. Angefangen mit HTML, CSS und JavaScript, habe ich mich zu dynamischen Anwendungen mit Bootstrap und React weiterentwickelt. SCSS steigerte meine stilistische Feinheit, während GSAP flüssige Animationen hinzufügte. MongoDB optimierte das Backend-Datenmanagement, und Figma vereinfachte das Design-Prototyping. Jedes Projekt war ein Meilenstein auf dem Weg zur Expertise und zur Gestaltung ansprechender digitaler Inhalte. Aber das hört hier nicht auf. Ich lerne ständig, mich an neue Technologien anzupassen."
 
 }

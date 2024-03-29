@@ -10,6 +10,7 @@ import Description from "./Description";
 import ProjectG from "./ProjectG";
 import Gallery from "./Gallery";
 import Footer from "./Footer";
+import PP from "./PP";
 
 function Home() {
   const { t } = useTranslation();
@@ -58,7 +59,7 @@ function Home() {
         </div>
       </div>
       <Description />
-
+      <PP />
       <ProjectG />
       <Gallery />
       <Footer />

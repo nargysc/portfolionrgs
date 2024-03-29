@@ -7,10 +7,13 @@
           "aspiring":"I'm  an aspiring front-end software engineer with a strong passion for building responsive and effective web applications that positively impacts the world in tech and life.",
           "combi":"The combination of my passion for design, code, and coffee positions me in a unique place in the world.",
               "aboutbutton":"About Me",
-              "someproject":"Some Projects I did",
+              "someproject":"EINIGE AUSGEWÄHLTE {PROJEKTE}, DIE ICH GEMACHT HABE, 23'24",
               "moreproject":"More Projects",
                   "clickfordemo":"Click for GitHub",
-                      "myown":"My Own Portfolio"
+                      "myown":"My Own Portfolio",
+                      "titleproject":"My journey in front-end programming and design blossomed through a variety of projects. Starting with HTML, CSS, and JavaScript, I progressed to dynamic applications with Bootstrap and React. SCSS boosted my styling finesse, while GSAP added fluid animations. MongoDB streamlined backend data management, and Figma simplified design prototyping. Each project was a stepping stone toward expertise, crafting engaging digital content. But this doesn't stop here. I am always learning to adapt new technologies."
+
+
 
 
 

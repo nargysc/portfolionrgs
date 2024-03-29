@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import "./Projects.scss";
 import Magnetic from "./Magnetic";
 import { useTranslation } from "react-i18next";
-
 import IMG1 from "../images/myown.png";
 import IMG2 from "../images/duckdash.png";
 import IMG3 from "../images/basedriga.png";
@@ -19,10 +18,12 @@ const Home = () => {
     <div>
       <section id="portfolio">
         <div className="portfolio__container">
-          <p>textteztextextex</p>
-          <Magnetic>
-            <p className="some">{t("someproject")}</p>
-          </Magnetic>
+          <p className="titleproject">{t("titleproject")}</p>
+          <span>
+            <Magnetic>
+              <p className="pr">{t("someproject")}</p>
+            </Magnetic>
+          </span>
 
           <div
             className="project myown"
