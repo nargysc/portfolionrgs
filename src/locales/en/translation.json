@@ -8,7 +8,10 @@
           "combi":"The combination of my passion for design, code, and coffee positions me in a unique place in the world.",
               "aboutbutton":"About Me",
               "someproject":"Some Projects I did",
-              "moreproject":"More Projects"
+              "moreproject":"More Projects",
+                  "clickfordemo":"Click for GitHub"
+
+
 
 
 }

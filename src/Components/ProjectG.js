@@ -29,8 +29,15 @@ const Home = () => {
             onMouseLeave={() => setShowImage1(false)}
           >
             <h3>Netflix</h3>
-            <h4>Development</h4>
-
+            <Magnetic>
+              <a
+                className="alink"
+                href="https://github.com/nargysc/netflixweb"
+                target="_blank morepr"
+              >
+                {t("clickfordemo")}
+              </a>
+            </Magnetic>
             {showImage1 && <img src={IMG1} alt="Netflix" />}
           </div>
           <div
@@ -40,7 +47,17 @@ const Home = () => {
             onMouseLeave={() => setShowImage2(false)}
           >
             <h3>Duck Dash Game</h3>
-            <h4>Development</h4>
+
+            <Magnetic>
+              <a
+                className="alink"
+                href="https://github.com/nargysc/DuckDashGame"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {t("clickfordemo")}
+              </a>
+            </Magnetic>
             {showImage2 && <img src={IMG2} alt="Duck Dash Game" />}
           </div>
           <div
@@ -50,7 +67,16 @@ const Home = () => {
             onMouseLeave={() => setShowImage3(false)}
           >
             <h3>Based Riga Store</h3>
-            <h4>Development</h4>
+            <Magnetic>
+              <a
+                className="alink"
+                href="https://github.com/nargysc/BasedRiga"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {t("clickfordemo")}
+              </a>
+            </Magnetic>
             {showImage3 && <img src={IMG3} alt="Based Riga Store" />}
           </div>
           <div
@@ -60,7 +86,16 @@ const Home = () => {
             onMouseLeave={() => setShowImage4(false)}
           >
             <h3>Glazier</h3>
-            <h4>Development</h4>
+            <Magnetic>
+              <a
+                className="alink"
+                href="https://github.com/nargysc/GlazierS"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {t("clickfordemo")}
+              </a>
+            </Magnetic>
             {showImage4 && <img src={IMG4} alt="Glazier" />}
           </div>
           <Magnetic>
