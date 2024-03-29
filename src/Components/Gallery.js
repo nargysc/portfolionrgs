@@ -70,12 +70,20 @@ function Gallery() {
 const Column = ({ images, y = 0 }) => {
   return (
     <motion.div style={{ y }} className="column">
-      {images.map((src, index) => (
-        // eslint-disable-next-line
-        <div key={index} className="imageContainer">
-          <img className="imagegallery" src={src} alt={`Image ${index + 1}`} />
-        </div>
-      ))}
+      {images.map(
+        (
+          src,
+          index // eslint-disable-next-line
+        ) => (
+          <div key={index} className="imageContainer">
+            <img
+              className="imagegallery"
+              src={src}
+              alt={`Image ${index + 1}`}
+            />{" "}
+          </div>
+        )
+      )}
     </motion.div>
   );
 };

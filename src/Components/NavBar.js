@@ -21,6 +21,14 @@ const NavBar = () => {
       <div className="navmenu">
         <div className="nav-item">
           <Magnetic>
+            <Link className="nav-link" to="/">
+              {t("homet")}
+            </Link>
+          </Magnetic>
+          <div className="indicator"></div>
+        </div>
+        <div className="nav-item">
+          <Magnetic>
             <Link className="nav-link" to="/projects">
               {t("projectnav")}
             </Link>

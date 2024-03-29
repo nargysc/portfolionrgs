@@ -30,6 +30,7 @@ const Home = () => {
                 className="alink"
                 href="https://github.com/nargysc/portfolionrgs"
                 target="_blank"
+                rel="noreferrer"
               >
                 {t("clickfordemo")}
               </a>
@@ -96,7 +97,7 @@ const Home = () => {
           </div>
           <Magnetic>
             <button className="morepr">
-              <a className="projectpages" href="./Projects">
+              <a className="projectpages" href="./Projects" rel="noreferrer">
                 {t("moreproject")}
               </a>
             </button>
