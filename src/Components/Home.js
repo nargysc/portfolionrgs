@@ -43,7 +43,7 @@ function Home() {
       xPercent = -100;
     }
     gsap.set(firstText.current, { xPercent: xPercent });
-    xPercent += 0.4 * direction;
+    xPercent += 0.1 * direction;
 
     requestAnimationFrame(animation);
   };
