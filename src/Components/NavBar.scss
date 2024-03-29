@@ -27,6 +27,7 @@ cursor: pointer;
   padding: 15px;
   cursor: pointer;
   color: black;
+
     }
     .logo,
     .nav-item {
@@ -89,10 +90,11 @@ transition: all 0.2s cubic-bezier(0.76,0, 0.24, 1);
   font-style: normal;
       font-size: 1em;
     }
-  .copy {
-        font-size: 0.8em;
-                font-weight: 640;
-
+  .copy  {
+display: flex;
+margin-top: -10px;
+flex-direction: column;
+width: 50px;
       }
     .name {
       display: flex;
@@ -118,15 +120,12 @@ transition: all 0.2s cubic-bezier(0.76,0, 0.24, 1);
       }
     }
     &:hover {
-      .copy {
-        transform: rotate(360deg);
-              color: #9a784d;
-
-        
+      .copy  {
+        transform: rotate(-20deg);
 
       }
       .name{
-        padding-right: 30px;
+        padding-right: 20px;
 
         .codeby {
           transform: translateX(-100%);

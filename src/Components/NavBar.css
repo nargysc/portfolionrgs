@@ -85,8 +85,10 @@ a {
   font-size: 1em;
 }
 .logo .copy {
-  font-size: 0.8em;
-  font-weight: 640;
+  display: flex;
+  margin-top: -10px;
+  flex-direction: column;
+  width: 50px;
 }
 .logo .name {
   display: flex;
@@ -108,11 +110,10 @@ a {
   padding-left: 1.3em;
 }
 .logo:hover .copy {
-  transform: rotate(360deg);
-  color: #9a784d;
+  transform: rotate(-20deg);
 }
 .logo:hover .name {
-  padding-right: 30px;
+  padding-right: 20px;
 }
 .logo:hover .name .codeby {
   transform: translateX(-100%);

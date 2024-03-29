@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "./NavBar.scss";
 import { useTranslation } from "react-i18next";
 import Magnetic from "./Magnetic";
+import icon from "../images/icon.png";
 
 const NavBar = () => {
   const { i18n, t } = useTranslation();
@@ -10,7 +11,7 @@ const NavBar = () => {
     <div className="nav">
       <div className=" logo">
         <Link className="nav-link" to="/">
-          <p className="copy">C₈H₁₀N₄O₂</p>
+          <img className="copy" src={icon}></img>
           <div className="name">
             <p className="codeby">Hey, It's</p>
             <p className="dennis">Nargys</p>
