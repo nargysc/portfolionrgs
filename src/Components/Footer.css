@@ -1,0 +1,61 @@
+.contact {
+  position: relative;
+}
+
+.bgbody {
+  justify-content: space-between;
+  padding: 15px;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  font-family: "Titillium Web", sans-serif;
+  background-color: #1C1D20;
+  font-weight: 600;
+  color: #f2f0e7;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+}
+
+.socialsmenu {
+  display: flex;
+  position: relative;
+  padding: 15px;
+  color: #f2f0e7;
+  outline: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.info h3 {
+  font-size: 0.6em;
+  color: #999999;
+}
+
+.info p {
+  font-size: 0.85em;
+}
+
+.socialsmenu a {
+  color: #f2f0e7;
+  outline: none;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.socialsmenu a:hover {
+  border-bottom: 1px solid #f2f0e7;
+}
+
+.socials h3 {
+  display: flex;
+  font-size: 1.6em;
+  color: #999999;
+}

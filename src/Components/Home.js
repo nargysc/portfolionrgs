@@ -8,6 +8,8 @@ import transition from "../transition";
 import { useTranslation } from "react-i18next";
 import Description from "./Description";
 import ProjectG from "./ProjectG";
+import Gallery from "./Gallery";
+import Footer from "./Footer";
 
 function Home() {
   const { t } = useTranslation();
@@ -27,7 +29,7 @@ function Home() {
         scrub: 0.1,
         onUpdate: (e) => (direction = e.direction * -1), // eslint-disable-line react-hooks/exhaustive-deps
       },
-      x: "-=200px",
+      x: "-=300",
     });
   }, []);
   // eslint-disable-line react-hooks/exhaustive-deps
@@ -40,7 +42,7 @@ function Home() {
       xPercent = -100;
     }
     gsap.set(firstText.current, { xPercent: xPercent });
-    xPercent += 0.1 * direction;
+    xPercent += 0.4 * direction;
 
     requestAnimationFrame(animation);
   };
@@ -56,7 +58,10 @@ function Home() {
         </div>
       </div>
       <Description />
+
       <ProjectG />
+      <Gallery />
+      <Footer />
     </div>
   );
 }
