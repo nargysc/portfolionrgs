@@ -3,7 +3,7 @@ import "./ProjectG.scss";
 import Magnetic from "./Magnetic";
 import { useTranslation } from "react-i18next";
 
-import IMG1 from "../images/netflix.png";
+import IMG1 from "../images/myown.png";
 import IMG2 from "../images/duckdash.png";
 import IMG3 from "../images/basedriga.png";
 import IMG4 from "../images/glazier.png";
@@ -23,17 +23,17 @@ const Home = () => {
           </Magnetic>
 
           <div
-            className="project netflix"
+            className="project myown"
             id="p1"
             onMouseEnter={() => setShowImage1(true)}
             onMouseLeave={() => setShowImage1(false)}
           >
-            <h3>Netflix</h3>
+            <h3>{t("myown")}</h3>
             <Magnetic>
               <a
                 className="alink"
-                href="https://github.com/nargysc/netflixweb"
-                target="_blank morepr"
+                href="https://github.com/nargysc/portfolionrgs"
+                target="_blank"
               >
                 {t("clickfordemo")}
               </a>
