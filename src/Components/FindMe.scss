@@ -1,0 +1,63 @@
+.coontact {
+  position: relative;
+}
+
+.bgssgbody {
+  justify-content: space-between;
+  padding: 308px;
+  margin-top: 6em;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  position: relative;
+  overflow-x: hidden;
+  background-color:#867ba3;;
+}
+
+.sociaals {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+}
+
+.sociaalsmenu {
+  display: flex;
+  position: relative;
+  padding: 15px;
+  color: black;
+  outline: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.innfo span {
+  font-size: 2em;
+  gap: 10px;
+  color: #000000;
+}
+
+.innfo p {
+  font-size: 0.85em;
+}
+
+.sociaalsmenu a {
+  color: black;
+  outline: none;
+  font-weight: 400;
+    font-size: 1.6em;
+
+  text-decoration: none;
+}
+
+.sociaalsmenu a:hover {
+  border-bottom: 1px solid #000000;
+}
+
+.sociaals h3 {
+  display: flex;
+  color: #999999;
+}/*# sourceMappingURL=Contact.css.map */
