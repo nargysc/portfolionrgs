@@ -1,13 +1,18 @@
 import React from "react";
 import "./Footer.scss";
 import Magnetic from "./Magnetic";
+
+import { useTranslation } from "react-i18next";
+
 function Contact() {
+  const { t } = useTranslation();
+
   return (
     <div className="contact">
       <div className="bgbody" alt="/">
         <div className="info">
           <span>
-            <span>IF YOU WANT TO SAY HELLO, GET IN TOUCH WITH ME</span>
+            <span>{t("footerinfo")}</span>
             <p>2024 © Edition </p>
           </span>
         </div>

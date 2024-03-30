@@ -34,7 +34,7 @@
 }
 
 @media only screen and (max-width: 768px) {
-  img {
+  .mainimg {
     width: 80%;
     margin-left: 10%;
     margin-top: 25%;
@@ -42,15 +42,13 @@
   .sliderContainer {
     top: calc(15vh - 120px);
   }
-  .slider p {
+  .slider .maintext {
     font-size: 90px;
   }
-  .slider p:nth-of-type(2) {
-    left: 182%;
-  }
 }
+/* Tablet */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
-  img {
+  .mainimg {
     width: 60%;
     margin-left: 20%;
     margin-top: 7%;
@@ -58,15 +56,13 @@
   .sliderContainer {
     top: calc(25vh - 240px);
   }
-  .slider p {
+  .slider .maintext {
     font-size: 180px;
   }
-  .slider p:nth-of-type(2) {
-    left: 10%;
-  }
 }
+/* Desktop */
 @media only screen and (min-width: 1025px) {
-  img {
+  .mainimg {
     width: 35%;
     margin-left: 35%;
     margin-top: 10%;

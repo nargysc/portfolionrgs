@@ -2,14 +2,16 @@ import React from "react";
 import transition from "../transition";
 import "./FindMe.scss";
 import Magnetic from "./Magnetic";
-
+import { useTranslation } from "react-i18next";
 function Find() {
+  const { t } = useTranslation();
+
   return (
     <div className="coontact">
       <div className="bgssgbody" alt="/">
         <div className="innfo">
           <span>
-            <span>IF YOU WANT TO SAY HELLO, GET IN TOUCH WITH ME</span>
+            <span>{t("footerinfo")}</span>
             <p>2024 © Edition </p>
           </span>
         </div>
