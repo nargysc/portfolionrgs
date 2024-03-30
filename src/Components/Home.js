@@ -51,7 +51,7 @@ function Home() {
   return (
     <div>
       <div className="sliderContainer">
-        <img src={pict} alt=""></img>
+        <img className="mainimg" src={pict} alt=""></img>
         <div ref={slider} className="slider">
           <p className="maintext" ref={firstText}>
             {t("frontend")}
