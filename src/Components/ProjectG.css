@@ -55,21 +55,21 @@ p {
   position: relative;
 }
 
-.project img {
-  display: none;
+.ppimage {
+  display: flex;
   border-radius: 20px;
-  background-color: beige;
+  background-color: brown;
   width: 25%;
   position: absolute;
-  top: -12%;
-  left: 20%;
+  top: 50%;
+  left: 55%;
   transform: translate(-50%, -50%);
   max-width: 400px;
   max-height: 350px;
   z-index: 2;
 }
 
-.project:hover img {
+.ppimage:hover {
   display: block;
 }
 

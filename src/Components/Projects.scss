@@ -64,11 +64,11 @@ p {
   position: relative;
 }
 
-.project img {
-  display: none;
+ .projectimg img {
+  display: flex;
   border-radius: 20px;
-  background-color: beige;
-  width: 25%;
+  background-color: saddlebrown;
+  width: 245%;
   position: absolute;
   top: -12%;
   left: 20%;

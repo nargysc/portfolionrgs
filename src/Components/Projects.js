@@ -42,7 +42,9 @@ const Home = () => {
                 {t("clickfordemo")}
               </a>
             </Magnetic>
-            {showImage1 && <img src={IMG1} alt="Netflix" />}
+            {showImage1 && (
+              <img className="projectimg" src={IMG1} alt="Netflix" />
+            )}
           </div>
           <div
             className="project duckdash"
@@ -62,7 +64,9 @@ const Home = () => {
                 {t("clickfordemo")}
               </a>
             </Magnetic>
-            {showImage2 && <img src={IMG2} alt="Duck Dash Game" />}
+            {showImage2 && (
+              <img className="projectimg" src={IMG2} alt="Duck Dash Game" />
+            )}
           </div>
           <div
             className="project basedriga"
@@ -81,7 +85,9 @@ const Home = () => {
                 {t("clickfordemo")}
               </a>
             </Magnetic>
-            {showImage3 && <img src={IMG3} alt="Based Riga Store" />}
+            {showImage3 && (
+              <img className="projectimg" src={IMG3} alt="Based Riga Store" />
+            )}
           </div>
           <div
             className="project glazier"
@@ -100,7 +106,9 @@ const Home = () => {
                 {t("clickfordemo")}
               </a>
             </Magnetic>
-            {showImage4 && <img src={IMG4} alt="Glazier" />}
+            {showImage4 && (
+              <img className="projectimg" src={IMG4} alt="Glazier" />
+            )}
           </div>
           <div
             className="project glazier"
@@ -119,7 +127,9 @@ const Home = () => {
                 {t("clickfordemo")}
               </a>
             </Magnetic>
-            {showImage4 && <img src={IMG4} alt="Glazier" />}
+            {showImage4 && (
+              <img className="projectimg" src={IMG4} alt="Glazier" />
+            )}
           </div>
           <div
             className="project glazier"
