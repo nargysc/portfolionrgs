@@ -62,21 +62,21 @@ p {
   position: relative;
 }
 
-.projectimg img {
+.projectimg {
   display: flex;
   border-radius: 20px;
   background-color: saddlebrown;
   width: 245%;
   position: absolute;
-  top: -12%;
-  left: 20%;
+  top: 12%;
+  left: 50%;
   transform: translate(-50%, -50%);
   max-width: 400px;
   max-height: 350px;
   z-index: 2;
 }
 
-.project:hover img {
+.projectimg:hover {
   display: block;
 }
 
