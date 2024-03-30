@@ -60,3 +60,21 @@
   display: flex;
   color: #999999;
 }
+/* CSS for iPad Air 4 */
+@media screen and (max-width: 834px) and (min-width: 769px) {
+  .bgbody {
+    padding: 6rem;
+  }
+  .socialsmenu {
+    padding: 1rem;
+  }
+  .info span {
+    font-size: 2em;
+  }
+  .info p {
+    font-size: 0.9em;
+  }
+  .socialsmenu a {
+    font-size: 1em;
+  }
+}
