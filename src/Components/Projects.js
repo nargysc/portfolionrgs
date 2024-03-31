@@ -7,12 +7,15 @@ import IMG1 from "../images/myown.png";
 import IMG2 from "../images/duckdash.png";
 import IMG3 from "../images/basedriga.png";
 import IMG4 from "../images/glazier.png";
+import IMG5 from "../images/coffee3d.png";
 
 const Home = () => {
   const [showImage1, setShowImage1] = useState(false);
   const [showImage2, setShowImage2] = useState(false);
   const [showImage3, setShowImage3] = useState(false);
   const [showImage4, setShowImage4] = useState(false);
+  const [showImage5, setShowImage5] = useState(false);
+
   const { t } = useTranslation();
   return (
     <div>
@@ -111,24 +114,24 @@ const Home = () => {
             )}
           </div>
           <div
-            className="project glazier"
+            className="project 3dCoffee"
             id="p4"
-            onMouseEnter={() => setShowImage4(true)}
-            onMouseLeave={() => setShowImage4(false)}
+            onMouseEnter={() => setShowImage5(true)}
+            onMouseLeave={() => setShowImage5(false)}
           >
-            <h3>Glazier</h3>
+            <h3>3D Coffee Package</h3>
             <Magnetic>
               <a
                 className="alink"
-                href="https://github.com/nargysc/GlazierS"
+                href="https://github.com/nargysc/3DAnimation?tab=readme-ov-file"
                 target="_blank"
                 rel="noreferrer"
               >
                 {t("clickfordemo")}
               </a>
             </Magnetic>
-            {showImage4 && (
-              <img className="projectimg" src={IMG4} alt="Glazier" />
+            {showImage5 && (
+              <img className="projectimg" src={IMG5} alt="3D Coffee" />
             )}
           </div>
           <div

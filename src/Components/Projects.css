@@ -65,7 +65,6 @@ p {
 .projectimg {
   display: flex;
   border-radius: 20px;
-  background-color: saddlebrown;
   width: 245%;
   position: absolute;
   top: 12%;
