@@ -1,0 +1,21 @@
+.cursor {
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  margin-left: -20px;
+  margin-top: -20px;
+  border-radius: 50%;
+  border: 2px solid #d94b23;;
+  background-color: #d94b23;
+  transition: transform 0.2s ease; // Note: corrected syntax for transition duration
+  pointer-events: none;
+  z-index: 100;
+}
+
+.grow {
+  transform: scale(1.2); // Adjust as needed for the scale effect
+}
+
+.grow-small {
+  transform: scale(0.8); // Adjust as needed for the scale effect
+}
