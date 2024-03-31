@@ -59,7 +59,7 @@
 .socials h3 {
   display: flex;
   color: #999999;
-}
+} 
 /* CSS for iPad Air 4 */
 @media screen and (max-width: 834px) and (min-width: 769px) {
   .bgbody {
@@ -77,4 +77,4 @@
   .socialsmenu a {
     font-size: 1em;
   }
-}
+}/*# sourceMappingURL=Footer.css.map */
