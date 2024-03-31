@@ -77,7 +77,7 @@ const Column = ({ images, y = 0 }) => {
         ) => (
           <div key={index} className="imageContainer">
             <img
-              className="imagegallery"
+              className="imagegallery" // eslint-disable-next-line
               src={src}
               alt={`Image ${index + 1}`}
             />{" "}

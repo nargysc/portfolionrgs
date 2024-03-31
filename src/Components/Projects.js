@@ -8,6 +8,8 @@ import IMG2 from "../images/duckdash.png";
 import IMG3 from "../images/basedriga.png";
 import IMG4 from "../images/glazier.png";
 import IMG5 from "../images/coffee3d.png";
+import IMG6 from "../images/netflix.png";
+import IMG7 from "../images/bankist.png";
 
 const Home = () => {
   const [showImage1, setShowImage1] = useState(false);
@@ -15,6 +17,8 @@ const Home = () => {
   const [showImage3, setShowImage3] = useState(false);
   const [showImage4, setShowImage4] = useState(false);
   const [showImage5, setShowImage5] = useState(false);
+  const [showImage6, setShowImage6] = useState(false);
+  const [showImage7, setShowImage7] = useState(false);
 
   const { t } = useTranslation();
   return (
@@ -135,61 +139,46 @@ const Home = () => {
             )}
           </div>
           <div
-            className="project glazier"
+            className="project netflix"
             id="p4"
-            onMouseEnter={() => setShowImage4(true)}
-            onMouseLeave={() => setShowImage4(false)}
+            onMouseEnter={() => setShowImage6(true)}
+            onMouseLeave={() => setShowImage6(false)}
           >
-            <h3>Glazier</h3>
+            <h3>Netflix</h3>
             <Magnetic>
               <a
                 className="alink"
-                href="https://github.com/nargysc/GlazierS"
+                href="https://github.com/nargysc/netflixweb"
                 target="_blank"
                 rel="noreferrer"
               >
                 {t("clickfordemo")}
               </a>
             </Magnetic>
-            {showImage4 && <img src={IMG4} alt="Glazier" />}
+            {showImage6 && (
+              <img className="projectimg" src={IMG6} alt="Netflix" />
+            )}
           </div>
           <div
-            className="project glazier"
+            className="project bankist"
             id="p4"
-            onMouseEnter={() => setShowImage4(true)}
-            onMouseLeave={() => setShowImage4(false)}
+            onMouseEnter={() => setShowImage7(true)}
+            onMouseLeave={() => setShowImage7(false)}
           >
-            <h3>Glazier</h3>
+            <h3>Bankist</h3>
             <Magnetic>
               <a
                 className="alink"
-                href="https://github.com/nargysc/GlazierS"
+                href="https://github.com/nargysc/Bankist"
                 target="_blank"
                 rel="noreferrer"
               >
                 {t("clickfordemo")}
               </a>
             </Magnetic>
-            {showImage4 && <img src={IMG4} alt="Glazier" />}
-          </div>
-          <div
-            className="project glazier"
-            id="p4"
-            onMouseEnter={() => setShowImage4(true)}
-            onMouseLeave={() => setShowImage4(false)}
-          >
-            <h3>Glazier</h3>
-            <Magnetic>
-              <a
-                className="alink"
-                href="https://github.com/nargysc/GlazierS"
-                target="_blank"
-                rel="noreferrer"
-              >
-                {t("clickfordemo")}
-              </a>
-            </Magnetic>
-            {showImage4 && <img src={IMG4} alt="Glazier" />}
+            {showImage7 && (
+              <img className="projectimg" src={IMG7} alt="Glazier" />
+            )}
           </div>
         </div>
       </section>
