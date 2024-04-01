@@ -39,12 +39,11 @@ margin: 0;
 
 
   //responsive
-
 @media only screen and (max-width: 768px) {
   .mainimg {
     width: 80%;
     margin-left: 10%;
-    margin-top: 25%;
+    margin-top: 40%;
   }
 
   .sliderContainer {
@@ -56,7 +55,6 @@ margin: 0;
   }
 }
 
-/* Tablet */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   .mainimg {
     width: 60%;
@@ -73,7 +71,6 @@ margin: 0;
   }
 }
 
-/* Desktop */
 @media only screen and (min-width: 1025px) {
   .mainimg {
     width: 35%;
@@ -81,4 +78,3 @@ margin: 0;
     margin-top: 10%;
   }
 }
-

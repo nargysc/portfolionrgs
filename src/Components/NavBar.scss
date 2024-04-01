@@ -142,3 +142,21 @@ width: 50px;
         
         }}
       }}
+
+
+  @media screen and (max-width: 768px) {
+    .nav {
+      flex-direction: column;
+    }
+    .navmenu {
+      display: none;
+            font-size: 0.6em;
+
+    }
+    .logo {
+      margin-left: 0;
+    }
+  }
+
+
+

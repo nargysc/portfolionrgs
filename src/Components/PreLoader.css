@@ -41,7 +41,10 @@
     width: 100%;
     margin-top: 25%;
   }
+  .preloader .center {
+    font-size: 3em;
+  }
   .preloader .texts-container {
     width: 100%;
   }
-}/*# sourceMappingURL=PreLoader.css.map */
+}

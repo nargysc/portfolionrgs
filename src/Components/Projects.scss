@@ -177,4 +177,20 @@ cursor: none;
 
 .socialsfooter h3 {
   display: flex;
-}/*# sourceMappingURL=Contact.css.map */
+}
+
+
+@media only screen and (max-width: 768px) {
+    .project {
+      flex-direction: column;
+      font-size: 0.5em;
+      padding: 20px;
+      
+      h3 {
+        font-size: 2em;
+      }
+        .projectimg {
+    display: none;
+    }
+  }
+}

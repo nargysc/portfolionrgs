@@ -37,7 +37,7 @@
   .mainimg {
     width: 80%;
     margin-left: 10%;
-    margin-top: 25%;
+    margin-top: 40%;
   }
   .sliderContainer {
     top: calc(15vh - 120px);
@@ -46,7 +46,6 @@
     font-size: 90px;
   }
 }
-/* Tablet */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   .mainimg {
     width: 60%;
@@ -60,11 +59,10 @@
     font-size: 180px;
   }
 }
-/* Desktop */
 @media only screen and (min-width: 1025px) {
   .mainimg {
     width: 35%;
     margin-left: 35%;
     margin-top: 10%;
   }
-}/*# sourceMappingURL=Home.css.map */
+}
