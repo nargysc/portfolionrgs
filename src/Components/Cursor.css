@@ -1,21 +1,28 @@
 .cursor {
   position: fixed;
-  width: 30px;
-  height: 30px;
+  width: 40px; /* Increased width */
+  height: 40px; /* Increased height */
+  font-size: 40px; /* Adjusted font size */
   margin-left: -20px;
   margin-top: -20px;
   border-radius: 50%;
-  border: 2px solid #d94b23;
-  background-color: #d94b23;
-  transition: transform 0.2s ease;
   pointer-events: none;
   z-index: 100;
+  animation: rotateBall 3s linear infinite;
 }
 
+@keyframes rotateBall {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 .grow {
   transform: scale(1.2);
 }
 
 .grow-small {
   transform: scale(0.8);
-}/*# sourceMappingURL=Cursor.css.map */
+}

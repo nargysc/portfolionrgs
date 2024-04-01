@@ -11,7 +11,6 @@ const Cursor = () => {
     document.body.style.cursor = "none";
 
     const cursor = document.querySelector(".cursor");
-    cursor.innerHTML = "";
 
     const cursorScale = document.querySelectorAll(".cursor-scale");
 
@@ -54,7 +53,7 @@ const Cursor = () => {
     };
   }, [mouseX, mouseY]);
 
-  return <div className="cursor"></div>;
+  return <div className="cursor">🎾</div>;
 };
 
 export default Cursor;
