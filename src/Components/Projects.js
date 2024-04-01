@@ -10,7 +10,7 @@ import IMG4 from "../images/glazier.png";
 import IMG5 from "../images/coffee3d.png";
 import IMG6 from "../images/netflix.png";
 import IMG7 from "../images/bankist.png";
-
+import Footer from "./Footer";
 const Home = () => {
   const [showImage1, setShowImage1] = useState(false);
   const [showImage2, setShowImage2] = useState(false);
@@ -182,6 +182,51 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <div className="footercontact">
+        <div className="footerbg" alt="/">
+          <div className="infofooter">
+            <span>
+              <span>{t("footerinfo")}</span>
+              <p>2024 © Edition </p>
+            </span>
+          </div>
+          <div className="socialsfooter">
+            <div className="socialsmenufooter">
+              <Magnetic>
+                <a
+                  href="https://github.com/nargysc"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  GitHub
+                </a>
+              </Magnetic>
+            </div>
+            <div className="socialsmenufooter">
+              <Magnetic>
+                <a
+                  href="https://www.linkedin.com/in/nargizaydin/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  LinkedIn
+                </a>
+              </Magnetic>
+            </div>
+            <div className="socialsmenufooter">
+              <Magnetic>
+                <a
+                  href="https://www.instagram.com/nrgzlife/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Instagram
+                </a>
+              </Magnetic>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
