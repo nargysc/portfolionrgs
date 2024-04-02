@@ -79,7 +79,7 @@ const Column = ({ images, y = 0 }) => {
             <img
               className="imagegallery" // eslint-disable-next-line
               src={src}
-              alt={`Image ${index + 1}`}
+              alt={`${index + 1}`}
             />{" "}
           </div>
         )

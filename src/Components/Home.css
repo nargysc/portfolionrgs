@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
-.mainimg img {
+.mainimg {
   -o-object-fit: contain;
      object-fit: contain;
   width: 35%;
@@ -9,7 +9,6 @@
 
 .mainimg:hover {
   content: url("../images/color.jpg");
-  cursor: pointer;
 }
 
 .sliderContainer {

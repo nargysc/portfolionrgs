@@ -10,7 +10,6 @@ import IMG4 from "../images/glazier.png";
 import IMG5 from "../images/coffee3d.png";
 import IMG6 from "../images/netflix.png";
 import IMG7 from "../images/bankist.png";
-import Footer from "./Footer";
 const Home = () => {
   const [showImage1, setShowImage1] = useState(false);
   const [showImage2, setShowImage2] = useState(false);

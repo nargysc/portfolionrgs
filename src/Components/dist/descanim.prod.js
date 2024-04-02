@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.opacity=void 0;var opacity={initial:{opacity:0},open:{opacity:1,transition:{duration:2}},closed:{opacity:0}};exports.opacity=opacity;

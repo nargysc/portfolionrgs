@@ -1,9 +1,8 @@
 {
-  "title": "Hello World",
-    "homet":"Home /",
-    "projectnav": "Projects /",
-      "aboutme": "About Me /",
-      "findme": "Contact /",
+    "homet":"Home",
+    "projectnav": "Projects",
+      "aboutme": "About Me",
+      "findme": "Contact",
           "frontend":"Front-End Engineer ©'24 Nargys",
           "aspiring":"I'm  an aspiring front-end software engineer with a strong passion for building responsive and effective web applications that positively impacts the world in tech and life.",
           "combi":"The combination of my passion for design, code, and coffee positions me in a unique place in the world.",
