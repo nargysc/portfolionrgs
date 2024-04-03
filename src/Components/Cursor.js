@@ -53,7 +53,7 @@ const Cursor = () => {
     };
   }, [mouseX, mouseY]);
 
-  return <div className="cursor">🎾</div>;
+  return <div className="cursor"></div>;
 };
 
 export default Cursor;

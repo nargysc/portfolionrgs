@@ -1,28 +1,20 @@
 .cursor {
   position: fixed;
-  width: 40px; /* Increased width */
-  height: 40px; /* Increased height */
-  font-size: 40px; /* Adjusted font size */
+  width: 40px;
+  height: 40px;
+  font-size: 40px;
+  border: 4px solid orangered;
   margin-left: -20px;
   margin-top: -20px;
   border-radius: 50%;
   pointer-events: none;
   z-index: 100;
-  animation: rotateBall 3s linear infinite;
 }
 
-@keyframes rotateBall {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 .grow {
   transform: scale(1.2);
 }
 
 .grow-small {
   transform: scale(0.8);
-}
+}/*# sourceMappingURL=Cursor.css.map */
