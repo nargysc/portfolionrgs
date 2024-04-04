@@ -23,3 +23,12 @@
   display:flex;
 align-self: center;
 }
+
+
+ @media only screen and (max-width: 600px) {
+    .ccontact {
+      margin-top: -35em; 
+      gap:10rem;
+    
+      }
+    }

@@ -22,4 +22,11 @@
 .pr {
   display: flex;
   align-self: center;
-}/*# sourceMappingURL=PP.css.map */
+}
+
+@media only screen and (max-width: 600px) {
+  .ccontact {
+    margin-top: -35em;
+    gap: 10rem;
+  }
+}

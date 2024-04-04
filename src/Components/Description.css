@@ -58,21 +58,27 @@
   position: relative;
   z-index: 1;
 }
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 432px) {
   .styles .styles {
-    padding: 50px;
+    padding: 30px;
   }
   .styles .body {
     flex-direction: column;
   }
   .styles .body .textpsp:nth-child(1) {
-    font-size: 1.5em;
-    margin-top: -9em;
-    margin-left: -3.5em;
+    font-size: 1.2em;
+    margin-top: -19em;
+    margin-left: -2.5em;
     line-height: 1.2;
-    width: 200%;
+    width: 150%;
   }
   .styles .body .textpsp:nth-child(2) {
+    display: none;
+  }
+  .styles .body .descbutton {
+    display: none;
+  }
+  .styles .body .descabout {
     display: none;
   }
 }
@@ -87,4 +93,4 @@
   p:nth-child(2) {
     font-size: 1.5rem;
   }
-}/*# sourceMappingURL=Description.css.map */
+}

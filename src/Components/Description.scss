@@ -67,9 +67,9 @@
       z-index: 1;
     }
   }
-   @media screen and (max-width: 768px) {
+   @media only screen and (max-width: 432px) {
     .styles {
-      padding: 50px; 
+      padding: 30px; 
     }
 
     .body {
@@ -77,11 +77,11 @@
 
  .textpsp {
    &:nth-child(1) {
-        font-size: 1.5em;
-        margin-top: -9em;
-        margin-left: -3.5em;
+        font-size: 1.2em;
+        margin-top: -19em;
+        margin-left: -2.5em;
                 line-height: 1.2;
-                width: 200%;
+                width: 150%;
 
       }
 
@@ -89,7 +89,14 @@
        display: none;
 
       }
-    }}}
+    }
+      .descbutton {
+        display: none;
+      }
+      .descabout {
+        display: none;
+      }
+    }}
   }
   @media screen and (max-width: 1024px) {
     .styles {
