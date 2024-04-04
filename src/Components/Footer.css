@@ -59,11 +59,11 @@
 .socials h3 {
   display: flex;
   color: #999999;
-} 
+}
 @media screen and (max-width: 768px) {
   .bgbody {
     padding: 1rem;
     width: 100%;
     font-size: 0.2em;
   }
-}/*# sourceMappingURL=Footer.css.map */
+}

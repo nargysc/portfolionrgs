@@ -60,4 +60,15 @@
 .sociaals h3 {
   display: flex;
   color: #999999;
-}/*# sourceMappingURL=Contact.css.map */
+}
+@media screen and (max-width: 768px) {
+  .bgssgbody {
+    padding: 5rem;
+    margin-top: 19em;
+    font-size: 0.5em;
+    .innfo {
+      width: 40%;
+    }
+  }
+}
+

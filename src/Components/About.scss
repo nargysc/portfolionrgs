@@ -9,13 +9,16 @@
 
 .paragraphp {
   margin-top: 10em;
-  padding: 20px 150px;
+  font-size: 1.4em;
+  padding: 250px 50px;
+
 }
 
 .skills-container {
   display: flex;
   justify-content: center;
   padding: 10px;
+  margin-top: -32em;
 }
 
 .skills-container-about {
@@ -31,6 +34,7 @@
 
 .skills {
   display: inline-block;
+
   background-color: #f9cf71;
   margin: 16px;
   padding: 8px 20px;
@@ -58,9 +62,10 @@
 }
 
 .aboutimg {
-  max-width: 25%;
+  max-width: 20%;
   margin-left: 2em;
   border-radius: 10px;
+  margin-top: 14em;
   animation: floatAnimation 3s ease infinite alternate;
    @media screen and (max-width: 768px) {
     max-width: 50%;
@@ -102,10 +107,27 @@
   }
 }
 
+@media only screen and (max-width: 460px) {
+.textp{
+  font-size: 1.5em;
+  margin-top: -10em;
+}
+.texts-container{
+  font-size: 1.3em;
+}
+p.paragraphp{
+  font-size: 1em;
+  margin-top: 1em;
+
+}
+}
+.skills-container {
+  margin-top: -10em;
+}
+
 .footerabout {
-  margin-top: 50px;
+  margin-top: 12em;
     @media screen and (max-width: 768px) {
     margin-top: 20px;
-  }
-
+    }
 }
